@@ -44,27 +44,27 @@ Lenguaje adicional: Python o JavaScript
 
 El proyecto se estructurará de la siguiente manera:
 
-LibraryManagementSystem
-src
-main
-java
-com.example.librarymanagement
- AdministratorGUI.java
- UserGUI.java
- BusinessLogic.java
- DatabaseManager.java
-resources
-database.properties
-fx
-styles.css
-images
+- / LibraryManagementSystem
+- / src
+- / main
+- / java
+- / com.example.librarymanagement
+ - AdministratorGUI.java
+ - UserGUI.java
+ - BusinessLogic.java
+ - DatabaseManager.java
+- / resources
+- database.properties
+- fx
+- styles.css
+- images
 ...
-test
-java
-com.example.librarymanagement
- AdministratorGUITest.java
- UserGUITest.java
- BusinessLogicTest.java
- DatabaseManagerTest.java
+- test
+- java
+- com.example.librarymanagement
+ - AdministratorGUITest.java
+ - UserGUITest.java
+ - BusinessLogicTest.java
+ - DatabaseManagerTest.java
 ...
-pom.xml (if using Maven)
+- pom.xml (if using Maven)
